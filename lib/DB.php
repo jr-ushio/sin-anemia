@@ -18,6 +18,6 @@ class DB
   }
   public static function conection()
   {
-    return new PDO("mysql:host=localhost;dbname=test","root","");
+    // return new PDO("mysql:host=localhost;dbname=test","root","");
   }
 }
