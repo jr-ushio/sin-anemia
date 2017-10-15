@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="<?= $depth.'css/bootstrap.min.css' ?>">
-  <link rel="stylesheet" href="<?= $depth.'css/bootstrap-theme.min.css' ?>">
-  <link rel="stylesheet" href="<?= $depth.'css/style.css' ?>">
+  <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../public/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="../../public/css/style.css">
   <title>Document</title>
 
   <!-- <script src="js/leaflet-js"></script> -->
@@ -14,7 +14,7 @@
   <!-- <script src="<?= $depth.'js/leaflet-src.js'; ?>" charset="utf-8"></script> -->
   <!-- <script src="<?= $depth.'js/country.js'; ?>" charset="utf-8"></script> -->
 
-  <script src="<?= $depth.'js/jquery-2.2.4.min.js'; ?>" charset="utf-8"></script>
+  <script src="../../public/js/jquery-2.2.4.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 
@@ -60,8 +60,8 @@
        5);
 
     var greenIcon = L.icon({
-          iconUrl: 'images/marker-icon.png',
-          shadowUrl: 'images/leaf-shadow.png',
+          iconUrl: '../../public/images/marker-icon.png',
+          shadowUrl: '../../public/images/leaf-shadow.png',
 
           iconSize:     [38, 95], // size of the icon
           shadowSize:   [50, 64], // size of the shadow
@@ -109,7 +109,7 @@
 
       var LeafIcon = L.Icon.extend({
         options: {
-            shadowUrl: 'images/leaf-shadow.png',
+            shadowUrl: '../../public/images/leaf-shadow.png',
             iconSize:     [38, 95],
             shadowSize:   [50, 64],
             iconAnchor:   [22, 94],
